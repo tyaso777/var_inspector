@@ -1,0 +1,22 @@
+{
+    "settings":  {
+                     "mypy.runUsingActiveInterpreter":  true,
+                     "python.analysis.typeCheckingMode":  "basic",
+                     "isort.args":  [
+                                        "--profile",
+                                        "black"
+                                    ],
+                     "[python]":  {
+                                      "editor.defaultFormatter":  "ms-python.black-formatter",
+                                      "editor.formatOnSave":  true,
+                                      "editor.codeActionsOnSave":  {
+                                        "source.organizeImports": "explicit"
+                                    }
+                                  }
+                 },
+    "folders":  [
+                    {
+                        "path":  "."
+                    }
+                ]
+}
