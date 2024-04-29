@@ -259,3 +259,27 @@ view_var = VarInspector(max_str_length=300, max_rows=300)
 # view_var(view_var)
 
 # view_var(response, include_advanced_details=True)
+
+# %%
+# Creating an instance with custom settings
+from var_inspector import VarInspector
+view_var = VarInspector(max_str_length=300, max_rows=200)
+# or import view_var directly
+from var_inspector import view_var
+
+# %%
+# Just invoking the view_var to display global variables with default settings
+view_var()
+
+# %%
+# Displaying all global variables including special types
+view_var(include_advanced_details=True)
+
+# %%
+# Displaying information about a specific variable
+some_variable = [1, 2, 3]
+view_var(some_variable)
+
+# %%
+# Displaying information about a specific variable including special types
+view_var(some_variable, include_advanced_details=True)
