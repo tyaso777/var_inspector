@@ -1,4 +1,3 @@
-# %%
 import inspect
 import sys
 import types
@@ -225,61 +224,5 @@ class VarInspector:
         display(df)
 
 
-# %%
 # default instance
 view_var = VarInspector(max_str_length=300, max_rows=300)
-
-# %%
-# Example usage
-# a = "\n"
-# b = "\\n"
-# c = " \\n"
-# example_instance = {"key": "value", "another_key": "another_value"}
-# x = 10
-# y = "Hello, world!"
-# z = "This is a very long string that should be truncated because it exceeds the maximum allowed length."
-# long_string_with_newlines = (
-#     "This is a string with newlines.\nHere is a new line.\nAnd another one."
-# )
-# long_list = range(100)  # Now an iterable that will be displayed properly
-# longlong_list = [[l for l in range(k)] for k in range(1, 100)]
-# longlong_text_list = [z for k in range(1, 100)]
-
-# import requests
-
-# url = "https://pypi.org/project/truststore/"
-# response = requests.get(url)
-
-# view_var = VarInspector()
-
-# view_var()
-
-# view_var(include_advanced_details=True)
-
-# view_var(view_var)
-
-# view_var(response, include_advanced_details=True)
-
-# %%
-# Creating an instance with custom settings
-from var_inspector import VarInspector
-view_var = VarInspector(max_str_length=300, max_rows=200)
-# or import view_var directly
-from var_inspector import view_var
-
-# %%
-# Just invoking the view_var to display global variables with default settings
-view_var()
-
-# %%
-# Displaying all global variables including special types
-view_var(include_advanced_details=True)
-
-# %%
-# Displaying information about a specific variable
-some_variable = [1, 2, 3]
-view_var(some_variable)
-
-# %%
-# Displaying information about a specific variable including special types
-view_var(some_variable, include_advanced_details=True)
