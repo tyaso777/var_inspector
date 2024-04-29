@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "var-inspector"
-version = "0.1.0"
+version = "0.1.1"
 description = "A package for inspecting and displaying variable information"
 authors = ["tyaso777 <49575436+tyaso777@users.noreply.github.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.9"
 pandas = "^2.2.2"
 
 
