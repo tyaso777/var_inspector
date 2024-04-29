@@ -48,24 +48,6 @@ Here's how to use `VarInspector`:
 
     <!DOCTYPE html>
     <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>User-defined and basic type global variables:</title>
-        <style>
-            table {
-                width: 100%;
-                border-collapse: collapse;
-            }
-            th, td {
-                border: 1px solid #dddddd;
-                text-align: left;
-                padding: 8px;
-            }
-            th {
-                background-color: #f2f2f2;
-            }
-        </style>
-    </head>
     <body>
         <h1>User-defined and basic type global variables:</h1>
         <table>
@@ -115,28 +97,6 @@ Here's how to use `VarInspector`:
 2. Inspect a specific variable by view_var(some_variable):
     <!DOCTYPE html>
     <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Object Overview:</title>
-        <style>
-            table {
-                width: 80%;
-                margin: 20px auto;
-                border-collapse: collapse;
-            }
-            th, td {
-                border: 1px solid #dddddd;
-                text-align: left;
-                padding: 8px;
-            }
-            th {
-                background-color: #f2f2f2;
-            }
-            td {
-                vertical-align: top;
-            }
-        </style>
-    </head>
     <body>
         <h1>Object Overview:</h1>
         <table>
@@ -179,26 +139,6 @@ Here's how to use `VarInspector`:
 
     <!DOCTYPE html>
     <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Attributes and methods of list:</title>
-        <style>
-            table {
-                width: 100%;
-                border-collapse: collapse;
-                table-layout: fixed;
-            }
-            th, td {
-                border: 1px solid #dddddd;
-                text-align: left;
-                padding: 8px;
-                word-wrap: break-word;
-            }
-            th {
-                background-color: #f2f2f2;
-            }
-        </style>
-    </head>
     <body>
         <h1>Attributes and methods of list:</h1>
         <table>
